@@ -2,3 +2,5 @@ rootProject.name = 'spring-msa'
 
 include 'discovery-service'
 include 'user-service'
+include 'api-gateway-service'
+

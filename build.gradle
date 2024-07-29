@@ -13,7 +13,7 @@ allprojects {
 
 subprojects {
     dependencies {
-        // spring
+        // Spring Boot
         implementation 'org.springframework.boot:spring-boot-starter'
         implementation 'org.springframework.boot:spring-boot-starter-web'
 
