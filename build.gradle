@@ -11,10 +11,12 @@ allprojects {
     }
 }
 
-// 서브 모듈에 적용
 subprojects {
-
     dependencies {
+        // spring
+        implementation 'org.springframework.boot:spring-boot-starter'
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+
         // Lombok
         compileOnly 'org.projectlombok:lombok'
         annotationProcessor 'org.projectlombok:lombok'
