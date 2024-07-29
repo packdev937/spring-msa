@@ -19,6 +19,9 @@ spring:
           # 조건 절 입니다.
           predicates:
             - Path=/user-service/**
+          filters:
+            - AddRequestHeader=first-request, hello
+            - AddResponseHeader=first-response, world
         - id: user-service
           uri: http://localhost:8082/
           # 조건 절 입니다.
